@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000; /* Set background to black */
+    color: #fff; /* Set text color to white for visibility */
+}
+
+.coming-soon-container {
+    text-align: center;
+    background-color: #333; /* Dark gray background for the container */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Slightly darker shadow for better contrast */
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 48px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 18px;
+}
+
+a {
+    color: #fff; /* Ensure links are also white */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
